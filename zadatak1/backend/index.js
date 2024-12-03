@@ -17,6 +17,8 @@ app.get('/login', (request, response) => {
     return response.sendFile(path.join(__dirname,'public/login.html'));
 });
 app.post('/getkontakt', (request, response) => {
+
+
     return response.send('GET metoda -> Read');
 });
 app.post('/addkontakt', (request, response) => {
